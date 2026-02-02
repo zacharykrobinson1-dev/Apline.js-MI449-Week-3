@@ -1,4 +1,4 @@
-function nameGenerator() {
+window.nameGenerator = function () {
   return {
     names: [
       "Alex",
@@ -19,4 +19,4 @@ function nameGenerator() {
       this.currentName = this.names[randomIndex];
     }
   };
-}
+};
